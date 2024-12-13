@@ -1,0 +1,48 @@
+/* SurveyTaker Styles */
+.survey-taker {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.question input[type="text"],
+.question textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.question textarea {
+  min-height: 100px;
+}
+
+.question input[type="radio"] {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
